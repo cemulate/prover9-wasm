@@ -51,6 +51,7 @@ Module.symvers
 Mkfile.old
 dkms.conf
 
+# Build results
 bin
 provers.src/prover9 
 provers.src/fof-prover9
@@ -59,3 +60,6 @@ provers.src/newauto
 provers.src/newsax
 provers.src/ladr_to_tptp
 provers.src/tptp_to_ladr
+
+# Emscripten build results
+*.wasm
