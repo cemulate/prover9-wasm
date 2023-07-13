@@ -1,6 +1,6 @@
 # LADR/mace4.src
 
-CC = gcc
+CC ?= gcc
 
 # XFLAGS can be specified on the command line (see XFLAGS below)
 
